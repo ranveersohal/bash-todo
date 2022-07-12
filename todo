@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+if [ $1 = tasks ]
+then
+cat t.txt
+fi
+if [ $1 = edit ]
+then
+cat>t.txt
+fi
