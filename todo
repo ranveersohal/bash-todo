@@ -7,5 +7,5 @@ cat t.txt
 fi
 if [ $1 = edit ]
 then
-cat>t.txt
+cat>>t.txt
 fi
